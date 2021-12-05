@@ -82,7 +82,7 @@
 
 .bio {
     /* background-color: #5f6c8d; */
-    max-width: 300px;
+    max-width: 500px;
     margin: 0 30px 0 10px;
     
 }
@@ -90,6 +90,7 @@
 
 .bio h4, .bio p {
     padding-top: 10px;
+    text-align: center;
 }
 
 .imgProfil {
@@ -106,14 +107,14 @@
 
 .story {
     /* background-color: #3a3a3a; */
-    max-width: 300px;
-    margin: 0 10px 0 30px;
-    
+    max-width: 380px;
+    margin: 0 10px 0 30px;    
 }
 
 .story p {
     line-height: 35px;
-    text-align: right;
+    text-align: center;
+    font-size: 0.9em;
 }
 
 .container-skills {
@@ -204,7 +205,8 @@
 .containerProject {
     background-image: url(../img/background4.png);
     background-size: cover;
-    height: 100vh;
+    height: max-content;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,9 +220,8 @@
 }
 
 .project {
-    max-width: 350px;
-    margin: 20px 50px;
-    
+    max-width: 650px;
+    margin: 30px 10px;
 }
 
 .project img {
@@ -229,13 +230,11 @@
 
 .box-project {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;    
+    align-items: center;
+    width: 100%;
 }
-
-/* .bio, .imgProfil, .story, .cards, .project {
-    overflow-x: hidden;
-} */
 
 footer {
     background-color: #95B3FC;
@@ -296,7 +295,7 @@ footer {
     }
 }
 
-@media (max-width:937px) {
+@media (max-width:1042px) {
 
     .container-aboutme {
         height: max-content;
@@ -316,7 +315,7 @@ footer {
     .bio {
         order: 2;
         text-align: center;
-        border-bottom: 1px solid #000000;
+        border-bottom: 1px solid hsl(216, 18%, 62%);
         margin: 0 10px 0 10px;
     }
 
@@ -344,11 +343,5 @@ footer {
 
     .story p {
         text-align: justify;
-    }
-}
-
-@media (max-width:899px) {
-    .project {
-        margin: 20px;
     }
 }
