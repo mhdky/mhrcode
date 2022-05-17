@@ -1,0 +1,285 @@
+/* all section */
+@media screen and (max-width:834px) {
+    * {
+        cursor: default;
+    }
+}
+
+/* logo section */
+@media screen and (max-width:1000px) {
+    .logo-img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .logo-img {
+        width: 230px;
+    }
+}
+
+/* search section */
+@media screen and (max-width:1164px) {
+    .container-search {
+        /* background-color: green; */
+        width: 98.5%;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .btn-search {
+        cursor: default;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container-input-search {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .container-input-search {
+        height: 30px;
+    }
+}
+
+/* card article section */
+@media screen and (max-width:1164px) {
+    .container-card-article {
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .card-article {
+        width: 32.2vw;
+    }
+}
+
+@media screen and (max-width:1058px) {
+    .card-article {
+        width: 32.1vw;
+    }
+}
+
+@media screen and (max-width:971px) {
+    .card-article {
+        width: 32vw;
+    }
+}
+
+@media screen and (max-width:899px) {
+    .card-article {
+        width: 31.9vw;
+    }
+}
+
+@media screen and (max-width:836px) {
+    .card-article {
+        width: 31.8vw;
+    }
+}
+
+@media screen and (max-width:782px) {
+    .card-article {
+        width: 48.3vw;
+    }
+}
+
+@media screen and (max-width:704px) {
+    .card-article {
+        width: 48.2vw;
+    }
+}
+
+@media screen and (max-width:665px) {
+    .card-article {
+        width: 48.1vw;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .card-article {
+        width: 48vw;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .card-article {
+        width: 47.9vw;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .card-article {
+        width: 47.8vw;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .card-article {
+        width: 47.7vw;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .card-article {
+        width: 47.6vw;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .card-article {
+        width: 47.5vw;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .card-article {
+        width: 47.4vw;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .card-article {
+        width: 47.3vw;
+    }
+}
+
+@media screen and (max-width:443px) {
+    .card-article {
+        width: 47.2vw;
+    }
+
+    .card-tittle {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .card-article {
+        width: 97.2vw;
+    }
+}
+
+@media screen and (max-width:411px) {
+    .card-article {
+        width: 97.1vw;
+    }
+}
+
+@media screen and (max-width:396px) {
+    .card-article {
+        width: 97vw;
+    }
+}
+
+@media screen and (max-width:384px) {
+    .card-article {
+        width: 96.9vw;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .card-article {
+        width: 96.8vw;
+    }
+}
+
+@media screen and (max-width:359px) {
+    .card-article {
+        width: 96.7vw;
+    }
+}
+
+@media screen and (max-width:348px) {
+    .card-article {
+        width: 96.6vw;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .card-article {
+        width: 96.5vw;
+    }
+}
+
+@media screen and (max-width:328px) {
+    .card-article {
+        width: 96.4vw;
+    }
+}
+
+@media screen and (max-width:319px) {
+    .card-article {
+        width: 96.3vw;
+    }
+}
+
+@media screen and (max-width:310px) {
+    .card-article {
+        width: 96.2vw;
+    }
+}
+
+@media screen and (max-width:302px) {
+    .card-article {
+        width: 96.1vw;
+    }
+}
+
+@media screen and (max-width:294px) {
+    .card-article {
+        width: 96vw;
+    }
+}
+
+@media screen and (max-width:287px) {
+    .card-article {
+        width: 95.9vw;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .card-article {
+        width: 95.8vw;
+    }
+}
+
+/* request section */
+@media screen and (max-width:1164px) {
+    .container-request {
+        width: 100%;
+        padding: 0 6px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .btn-request {
+        cursor: default;
+    }
+}
+
+@media screen and (max-width:324px) {
+    .box-input-name, .input-name {
+        width: 100%;
+    }
+}
+
+/* footer section */
+@media screen and (max-width:818px) {
+    .container-footer {
+        flex-direction: column;
+    } 
+
+    .donasi {
+        margin: 15px 0 10px 0;
+    }     
+}
+
+@media screen and (max-width:834px) {
+    .container-btn-top {
+        cursor: default;
+    }
+}
